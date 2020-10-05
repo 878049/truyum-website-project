@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="truyumstyle.css" rel="stylesheet">
+ <script src="main.js"></script>
+</head>
+<body>
+<header>
+  <h1 id="header1">truyum</h1>
+  <img src="fork.png" id="headerImage" width="50px" height="40px" >
+  <nav id="nav">
+    
+    <a href="menu-item-list-admin.html" >menu</a>
+
+  </nav>
+</header>
+<form action="edit-menu-item-status.html" onsubmit="return submitalert()" >
+<table id="editPage" cellspacing="10">
+    <tr>
+        <td colspan="4">
+            <p>Name</p>
+            <input id="name" type="text" name="name" value="" >
+        </td>
+    </tr>
+    <tr>
+      <td>
+       <p>Price in Rs</p>
+       <input type="number" id="number" name="price" value= "" min="2" max="65" >
+    </td>
+    <td>
+        <p>Active</p>
+        <input type="radio" name="Active" value= "">Yes
+        <input type="radio" name="Active" value= "">No
+     </td>
+     <td>
+        <p>Date of Launch</p>
+        <input type="date" name="Date" value= "" >
+     </td>
+     <td>
+        <p>Category</p>
+        <select name="main course">
+            <option>Main Course</option>
+            <option>Starters </option>
+            <option>Dessert</option>
+            <option>Main Course</option>
+            <option>Drinks </option>
+        </select>
+
+        
+     </td>
+
+   </tr>
+   <tr>
+     <td>
+       <input type="checkbox" name="freedelivery">Free Delivery
+     </td>
+   </tr>
+   <tr>
+     <td>
+       <input type="submit" class="editsavebutton" value="save"  >
+     </td>
+   </tr>
+  </form>
+
+</table>
+
+<footer>
+    <p>Copyright &copy; 2019 </p>
+  </footer>
+</body>
+</html>
