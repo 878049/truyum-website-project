@@ -1,1 +1,0 @@
-# truyum-website-project
