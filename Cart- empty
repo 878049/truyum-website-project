@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="truyumstyle.css" rel="stylesheet">
+</head>
+<body id="empty">
+<header>
+  <h1 id="header1" >truyum</h1>
+  <img src="fork.png" id="headerImage" width="50px" height="40px" >
+  <nav id="nav">
+    
+    <a href="menu-item-list-admin.html" >menu</a>
+    <a href="#" >cart</a>
+
+
+  </nav>
+</header>
+<section >
+  <table id="adminPage">
+    <caption id="captionadmin" ><h1>Cart</h1> <h3 style="color:green;display:flex">no items<a href="menu-item-list-customer.html">menu</a></h3></caption>
+        
+    
+ 
+  </table>
+</section>
+<footer >
+  <p>Copyright &copy; 2019 </p>
+</footer>
+
+</body>
+
+</html>
